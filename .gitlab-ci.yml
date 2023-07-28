@@ -1,0 +1,10 @@
+stages:
+ - print 
+
+okay_print:
+ stage: print 
+ script:
+   - echo a-repo/Dockerfile 
+ only: 
+   changes:
+     - a-repo/Dockerfile
