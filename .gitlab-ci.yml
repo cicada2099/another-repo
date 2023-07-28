@@ -4,7 +4,7 @@ stages:
 okay_print:
  stage: print 
  script:
-   - echo a-repo/Dockerfile 
+   - cat a-repo/Dockerfile 
  only: 
    changes:
      - a-repo/Dockerfile
